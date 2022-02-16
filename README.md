@@ -36,11 +36,11 @@ emitente = {'nome': 'COMPANY ME-EPP',
             'cep': '00000-000',
             'cidade': 'SÃO PAULO',
             'uf': 'SP',
-            'fone': '(11) 1234-4578'}
+            'fone': '(11) 1234-5678'}
 
 
 xmls = [open( "xml_cce.xml", "r", encoding="utf8").read(),]     
-pdf_cce = DaCCe(xmls=xmls, emitente=emitente, image=logo)
+pdf_cce = DaCCe(xmls=xmls, emitente=emitente, image=None)
 pdf_cce.output('cce.pdf', 'F')
 
 
