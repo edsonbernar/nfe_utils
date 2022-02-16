@@ -1,6 +1,6 @@
 nfe_utils
 -
-Biblioteca para gerar pdf DANFE (retrato e paisagem), DACCe a partir de xml's.
+Biblioteca para gerar pdf da DANFE (retrato e paisagem), DACCe a partir de xml's.
 
 Dependências:
 
